@@ -1,0 +1,21 @@
+$breakpoints: (
+  "sm": "screen and (max-width: 500px)",
+  "md": "screen and (min-width: 780px)",
+  "lg": "screen and (min-width: 1000px)",
+  "xl": "screen and (min-width: 1200px)",
+) !default;
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+
+#navbar ul li {
+  @include mq("sm") {
+    float: none;
+    display: block;
+  }
+  float: left;
+}
