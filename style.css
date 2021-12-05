@@ -5,6 +5,7 @@ body {
   padding: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #f0dbc1;
 }
 
 .line1 {
@@ -55,6 +56,7 @@ body {
 }
 
 .line1 .news .content h3 {
+  font-size: 1.7em;
   margin: 10%;
   padding: 0%;
   color: white;
@@ -63,6 +65,7 @@ body {
 .line1 .news .content p {
   margin: 10% 0 0 5%;
   color: white;
+  font-size: 1.2em;
 }
 
 .line1 .books {
@@ -91,14 +94,16 @@ body {
 }
 
 .line1 .books .content h3 {
+  font-size: 1.7em;
   margin: 10% 10% 0% 10%;
   padding: 0%;
   color: white;
 }
 
 .line1 .books p {
-  margin: 7% 0 0 5%;
+  margin: 10% 0 0 5%;
   color: white;
+  font-size: 1.2em;
 }
 
 #navbar ul li {
@@ -186,11 +191,37 @@ body {
 }
 
 .box2 .text {
+  font-family: "Josefin Sans", sans-serif;
   background-color: #f591a1;
 }
 
+.box2 .text h3 {
+  font-size: 1.7em;
+  margin: 5% 0 4% 0;
+  padding: 0%;
+}
+
+.box2 .text p {
+  margin: 0% 0 3% 0;
+  padding: 0%;
+  font-size: 1.3em;
+}
+
 .box2 .text01 {
+  font-family: "Josefin Sans", sans-serif;
   background-color: #f8f803;
+}
+
+.box2 .text01 h3 {
+  font-size: 1.7em;
+  margin: 5% 0 5% 0;
+  padding: 0%;
+}
+
+.box2 .text01 p {
+  margin: 0%;
+  padding: 0%;
+  font-size: 1.3em;
 }
 
 .box2_vertical {
@@ -241,10 +272,23 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.box2_vertical h3 {
+  font-size: 1.7em;
+  margin: 25% 0 5% 0;
+  padding: 0%;
+}
+
+.box2_vertical p {
+  margin: 0% 0 3% 0;
+  padding: 0%;
+  font-size: 1.3em;
+}
+
 .line3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 2% 0;
 }
 
 .line3 .mail {
