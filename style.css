@@ -30,7 +30,7 @@ body {
 
 .line1 .title {
   background-color: #b4b4b4;
-  width: 43%;
+  width: 85%;
 }
 
 @media screen and (max-width: 500px) {
@@ -52,7 +52,6 @@ body {
 
 @media screen and (max-width: 500px) {
   .line1 .title h1 {
-    font-size: 3em;
     margin: 3% 0;
     padding: 12px 8px;
     text-align: center;
@@ -60,8 +59,8 @@ body {
 }
 
 .line1 .news {
-  width: 25%;
-  margin: 0% 2%;
+  width: 47%;
+  margin: 0% 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +117,7 @@ body {
 }
 
 .line1 .books {
-  width: 25%;
+  width: 47%;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,22 +173,17 @@ body {
   }
 }
 
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (max-width: 500px) {
   .section1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-}
-
-#navbar ul li {
-  float: left;
-}
-
-@media screen and (max-width: 500px) {
-  #navbar ul li {
-    float: none;
-    display: block;
   }
 }
 

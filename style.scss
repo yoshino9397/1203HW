@@ -33,10 +33,9 @@ body {
 
   .title {
     background-color: rgb(180, 180, 180);
-    width: 43%;
+    width: 85%;
     @include mq("sm") {
       width:fit-content;
-      
     }
     h1 {
       font-size: 3em;
@@ -46,7 +45,6 @@ body {
       margin-top: 7%;
       margin-left: 5%;
       @include mq("sm") {
-        font-size: 3em;
         margin: 3% 0;
         padding:12px 8px;
         text-align: center;
@@ -55,8 +53,8 @@ body {
     }
   }
   .news {
-    width: 25%;
-    margin: 0% 2%;
+    width: 47%;
+    margin: 0% 3%;
     display: flex;
     @include mq("sm") {
       width:50%;
@@ -96,7 +94,7 @@ body {
     }
   }
   .books {
-    width: 25%;
+    width: 47%;
     padding: 0;
     display: flex;
     @include mq("sm") {
@@ -138,18 +136,12 @@ body {
   }
 }
 .section1{
+  display: flex;
   @include mq("sm") {
     display: flex;
   }
 }
 
-#navbar ul li {
-  @include mq("sm") {
-    float: none;
-    display: block;
-  }
-  float: left;
-}
 
 //--------------------
 // line 2
