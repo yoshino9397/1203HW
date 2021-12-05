@@ -46,7 +46,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: white;
   text-shadow: 3px 2px #000000;
-  margin-top: 7%;
+  margin-top: 9%;
   margin-left: 5%;
 }
 
@@ -59,6 +59,7 @@ body {
 }
 
 .line1 .news {
+  cursor: pointer;
   width: 47%;
   margin: 0% 3%;
   display: -webkit-box;
@@ -92,7 +93,7 @@ body {
 
 .line1 .news .content h3 {
   font-size: 1.7em;
-  margin: 10%;
+  margin: 15% 10% 10%;
   padding: 0%;
   color: white;
 }
@@ -117,6 +118,7 @@ body {
 }
 
 .line1 .books {
+  cursor: pointer;
   width: 47%;
   padding: 0;
   display: -webkit-box;
@@ -149,7 +151,7 @@ body {
 
 .line1 .books .content h3 {
   font-size: 1.7em;
-  margin: 10% 10% 0% 10%;
+  margin: 15% 10% 10%;
   padding: 0%;
   color: white;
 }
@@ -241,6 +243,7 @@ body {
 .box2 .image01,
 .box2 .text,
 .box2 .text01 {
+  cursor: pointer;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -259,6 +262,7 @@ body {
 .box2 .image01 img,
 .box2 .text img,
 .box2 .text01 img {
+  margin: 2%;
   padding: 5px;
 }
 
@@ -273,12 +277,19 @@ body {
 .box2 .text {
   font-family: "Josefin Sans", sans-serif;
   background-color: #f591a1;
+  color: #000000;
 }
 
 .box2 .text h3 {
   font-size: 1.7em;
-  margin: 5% 0 4% 0;
+  margin: 5% 0;
   padding: 0%;
+}
+
+@media screen and (max-width: 500px) {
+  .box2 .text h3 {
+    font-size: 2.2em;
+  }
 }
 
 .box2 .text p {
@@ -287,21 +298,40 @@ body {
   font-size: 1.3em;
 }
 
+@media screen and (max-width: 500px) {
+  .box2 .text p {
+    display: none;
+  }
+}
+
 .box2 .text01 {
   font-family: "Josefin Sans", sans-serif;
   background-color: #f8f803;
+  color: #000;
 }
 
 .box2 .text01 h3 {
   font-size: 1.7em;
-  margin: 5% 0 5% 0;
+  margin: 5% 0;
   padding: 0%;
+}
+
+@media screen and (max-width: 500px) {
+  .box2 .text01 h3 {
+    font-size: 2.2em;
+  }
 }
 
 .box2 .text01 p {
   margin: 0%;
   padding: 0%;
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 500px) {
+  .box2 .text01 p {
+    display: none;
+  }
 }
 
 .box2_vertical {
@@ -336,6 +366,7 @@ body {
 }
 
 .box2_vertical .text02 {
+  cursor: pointer;
   width: 100%;
   height: 100%;
   background-color: #4af117;
@@ -358,10 +389,23 @@ body {
   padding: 0%;
 }
 
+@media screen and (max-width: 500px) {
+  .box2_vertical h3 {
+    font-size: 2.1em;
+    margin: 5% 0;
+  }
+}
+
 .box2_vertical p {
   margin: 0% 0 3% 0;
   padding: 0%;
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 500px) {
+  .box2_vertical p {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -389,6 +433,7 @@ body {
 }
 
 .line3 .mail {
+  cursor: pointer;
   width: 49%;
   margin: 0% 2% 0 0;
   display: -webkit-box;
@@ -447,6 +492,7 @@ body {
 }
 
 .line3 .music {
+  cursor: pointer;
   width: 51%;
   padding: 0;
   display: -webkit-box;

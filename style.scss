@@ -16,7 +16,7 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0%;
-  padding: 40px 20px 20px 20px ;
+  padding: 40px 20px 20px 20px;
   box-sizing: border-box;
   background-color: rgb(240, 219, 193);
   @include mq("sm") {
@@ -35,31 +35,32 @@ body {
     background-color: rgb(180, 180, 180);
     width: 85%;
     @include mq("sm") {
-      width:fit-content;
+      width: fit-content;
     }
     h1 {
       font-size: 3em;
       font-family: $font-family;
       color: white;
       text-shadow: 3px 2px #000000;
-      margin-top: 7%;
+      margin-top: 9%;
       margin-left: 5%;
       @include mq("sm") {
         margin: 3% 0;
-        padding:12px 8px;
+        padding: 12px 8px;
         text-align: center;
-        
       }
     }
   }
   .news {
+    cursor: pointer;
     width: 47%;
     margin: 0% 3%;
     display: flex;
     @include mq("sm") {
-      width:50%;
+      width: 50%;
       margin: 0 2% 0 0;
     }
+
     .image {
       background-color: aqua;
       img {
@@ -75,12 +76,12 @@ body {
       font-family: $font-family;
       h3 {
         font-size: 1.7em;
-        margin: 10%;
+        margin: 15% 10% 10%;
         padding: 0%;
         color: white;
         @include mq("sm") {
           text-align: center;
-          margin:40% 0 0 0;
+          margin: 40% 0 0 0;
         }
       }
       p {
@@ -94,12 +95,12 @@ body {
     }
   }
   .books {
+    cursor: pointer;
     width: 47%;
     padding: 0;
     display: flex;
     @include mq("sm") {
-      width:50%;
-
+      width: 50%;
     }
     .image {
       background-color: rgba(255, 68, 0, 0.774);
@@ -116,12 +117,12 @@ body {
       font-family: $font-family;
       h3 {
         font-size: 1.7em;
-        margin: 10% 10% 0% 10%;
+        margin: 15% 10% 10%;
         padding: 0%;
         color: white;
         @include mq("sm") {
           text-align: center;
-          margin:40% 0 0 0;
+          margin: 40% 0 0 0;
         }
       }
     }
@@ -135,13 +136,12 @@ body {
     }
   }
 }
-.section1{
+.section1 {
   display: flex;
   @include mq("sm") {
     display: flex;
   }
 }
-
 
 //--------------------
 // line 2
@@ -158,23 +158,16 @@ body {
   }
 }
 
-// .group_first {
-  //   @include mq("sm") {
-    //     display: flex;
-    //   }
-    // }
-    
-    .box2 {
-      // border: 1px solid red;
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-      @include mq("sm") {
-        margin-bottom: 20px;
-        color: white;
-      }
+.box2 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include mq("sm") {
+    margin-bottom: 20px;
+    color: white;
+  }
 
   img {
     width: 100px;
@@ -185,17 +178,16 @@ body {
   .image01,
   .text,
   .text01 {
-    // border: 1px solid red;
+    cursor: pointer;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     img {
+      margin: 2%;
       padding: 5px;
     }
-
   }
 
   .image {
@@ -209,44 +201,55 @@ body {
   .text {
     font-family: $font-family;
     background-color: rgb(245, 145, 161);
-    h3{
+    color: #000000;
+    h3 {
       font-size: 1.7em;
-      margin: 5% 0 4% 0;
+      margin: 5% 0;
       padding: 0%;
+      @include mq("sm") {
+        font-size: 2.2em;
+      }
     }
-    p{
+    p {
       margin: 0% 0 3% 0;
       padding: 0%;
       font-size: 1.3em;
+      @include mq("sm") {
+        display: none;
+      }
     }
   }
 
   .text01 {
     font-family: $font-family;
     background-color: rgb(248, 248, 3);
-    h3{
+    color: #000;
+    h3 {
       font-size: 1.7em;
-      margin: 5% 0 5% 0;
+      margin: 5% 0;
       padding: 0%;
+      @include mq("sm") {
+        font-size: 2.2em;
+      }
     }
-    p{
+    p {
       margin: 0%;
       padding: 0%;
       font-size: 1.3em;
+      @include mq("sm") {
+        display: none;
+      }
     }
-    
   }
 }
 
 .box2_vertical {
-  // border: 1px solid red;
   width: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   img {
-    // border: 1px solid red;
     width: 100px;
     height: 100px;
   }
@@ -261,6 +264,7 @@ body {
   }
 
   .text02 {
+    cursor: pointer;
     width: 100%;
     height: 100%;
     background-color: rgb(74, 241, 23);
@@ -269,15 +273,22 @@ body {
     align-items: center;
     font-family: $font-family;
   }
-  h3{
+  h3 {
     font-size: 1.7em;
     margin: 25% 0 5% 0;
     padding: 0%;
+    @include mq("sm") {
+      font-size: 2.1em;
+      margin: 5% 0;
+    }
   }
-  p{
+  p {
     margin: 0% 0 3% 0;
     padding: 0%;
     font-size: 1.3em;
+    @include mq("sm") {
+      display: none;
+    }
   }
 
   @include mq("sm") {
@@ -294,11 +305,12 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   .mail {
+    cursor: pointer;
     width: 49%;
     margin: 0% 2% 0 0;
     display: flex;
     @include mq("sm") {
-      width:50%;
+      width: 50%;
     }
     .image {
       background-color: deepskyblue;
@@ -335,11 +347,12 @@ body {
     }
   }
   .music {
+    cursor: pointer;
     width: 51%;
     padding: 0;
     display: flex;
     @include mq("sm") {
-      width:50%;
+      width: 50%;
     }
     .image {
       background-color: hotpink;
@@ -388,7 +401,6 @@ body {
 // line4
 //-------------------
 .box4 {
-  // border: 1px solid red;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -403,7 +415,7 @@ body {
   img:hover {
     cursor: pointer;
   }
-  
+
   @include mq("sm") {
     display: flex;
     flex-wrap: wrap;
@@ -413,5 +425,4 @@ body {
       height: 50px;
     }
   }
-
 }
