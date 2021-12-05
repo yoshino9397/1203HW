@@ -18,6 +18,7 @@ body {
   margin: 0%;
   padding: 20px;
   box-sizing: border-box;
+  background-color: rgb(240, 219, 193);
 }
 
 .line1 {
@@ -34,6 +35,7 @@ body {
       text-shadow: 3px 2px #000000;
       margin-top: 7%;
       margin-left: 5%;
+    
     }
   }
   .news {
@@ -54,6 +56,7 @@ body {
       padding: 0%;
       font-family: $font-family;
       h3 {
+        font-size: 1.7em;
         margin: 10%;
         padding: 0%;
         color: white;
@@ -61,6 +64,7 @@ body {
       p {
         margin: 10% 0 0 5%;
         color: white;
+        font-size: 1.2em;
       }
     }
   }
@@ -82,14 +86,16 @@ body {
       padding: 0%;
       font-family: $font-family;
       h3 {
+        font-size: 1.7em;
         margin: 10% 10% 0% 10%;
         padding: 0%;
         color: white;
       }
     }
     p {
-      margin: 7% 0 0 5%;
+      margin: 10% 0 0 5%;
       color: white;
+      font-size: 1.2em;
     }
   }
 }
@@ -122,7 +128,7 @@ body {
     width: 100px;
     height: 100px;
   }
-  
+
   .image,
   .image01,
   .text,
@@ -140,7 +146,7 @@ body {
   }
 
   .image {
-    background-color: pink ;
+    background-color: pink;
   }
 
   .image01 {
@@ -148,11 +154,33 @@ body {
   }
 
   .text {
+    font-family: $font-family;
     background-color: rgb(245, 145, 161);
+    h3{
+      font-size: 1.7em;
+      margin: 5% 0 4% 0;
+      padding: 0%;
+    }
+    p{
+      margin: 0% 0 3% 0;
+      padding: 0%;
+      font-size: 1.3em;
+    }
   }
-  
+
   .text01 {
+    font-family: $font-family;
     background-color: rgb(248, 248, 3);
+    h3{
+      font-size: 1.7em;
+      margin: 5% 0 5% 0;
+      padding: 0%;
+    }
+    p{
+      margin: 0%;
+      padding: 0%;
+      font-size: 1.3em;
+    }
     
   }
 }
@@ -169,18 +197,6 @@ body {
     width: 100px;
     height: 100px;
   }
-
-  // .image {
-  // }
-
-  // .text {
-  // }
-
-  // .image01 {
-  // }
-
-  // .text01 {
-  // }
 
   .image02 {
     width: 100%;
@@ -200,12 +216,22 @@ body {
     align-items: center;
     font-family: $font-family;
   }
+  h3{
+    font-size: 1.7em;
+    margin: 25% 0 5% 0;
+    padding: 0%;
+  }
+  p{
+    margin: 0% 0 3% 0;
+    padding: 0%;
+    font-size: 1.3em;
+  }
 }
 
 //--------line3---------//
 .line3 {
   display: flex;
-
+  margin: 2% 0;
   .mail {
     width: 49%;
     margin: 0% 2% 0 0;
@@ -274,9 +300,6 @@ body {
   width: 30px;
   height: 30px;
 }
-
-
-
 
 //--------------------
 // line4
