@@ -19,3 +19,84 @@ $breakpoints: (
   }
   float: left;
 }
+
+
+//--------------------
+// line 2
+//-------------------
+.line2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box2 {
+  border: 1px solid red;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.box2_vertical {
+  border: 1px solid red;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  img {
+    // border: 1px solid red;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .image {
+  
+  }
+  
+  .text {
+   
+  }
+
+
+  .image01 {
+  
+  }
+  
+  .text01 {
+   
+  }
+
+
+  .image02 {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .text02 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(99, 97, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+//--------------------
+// img
+//-------------------
+.box5 img{
+  width: 30px;
+  height: 30px;
+}
