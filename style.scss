@@ -109,6 +109,10 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  @include mq("sm") {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .box2 {
@@ -199,6 +203,10 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: $font-family;
+  }
+
+  @include mq("sm") {
+    
   }
 }
 
